@@ -1,7 +1,11 @@
-const express = require('express')
+const express = require('express');
+const {register} = required('.../controllers/auth.js');
 
 const router = express.router();
 
-router.post('/api/register', adminMiddleWare, asdsaController)
+router.post('/register', register)
+router.post('/login', login)
 
-module.exports = router
+router.post('/product', auth , sadasdsad)
+
+module.exports = router;

@@ -1,1 +1,4 @@
-PORT = 8000
+PORT=8000
+MONGO_URI=mongodb+srv://muhammedaliuyank16:bQjMqh0kuYsrjqdW@cluster0.mjxmxyt.mongodb.net/
+
+SECRET_TOKEN=asdsadsadsa
